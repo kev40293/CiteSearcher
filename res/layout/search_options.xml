@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent" android:layout_height="wrap_content">
+  <TableRow android:layout_height="wrap_content">
+    <Button android:text="Set Options" android:id="@+id/setButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="setOptions"></Button>
+    </TableRow>
+    <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:weightSum="1">
+        <TextView android:text="From: " android:id="@+id/TextView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="0.1"></TextView>
+        <EditText android:layout_height="wrap_content" android:inputType="number" android:id="@+id/startYear" android:layout_width="wrap_content" android:layout_weight="0.33">
+            <requestFocus></requestFocus>
+        </EditText>
+        <TextView android:layout_height="wrap_content" android:text="To: " android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_weight="0.1" > </TextView>
+        <EditText android:layout_height="wrap_content" android:inputType="number" android:id="@+id/endYear" android:layout_width="wrap_content" android:layout_weight="0.33"></EditText>
+    </LinearLayout>   
+    </TableRow> 
+    <TableRow android:layout_height="fill_parent">
+        <ListView android:id="@+id/fields" android:layout_width="wrap_content" android:layout_height="match_parent"></ListView>
+    </TableRow>
+</TableLayout>

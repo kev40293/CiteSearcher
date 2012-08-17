@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, by resources!</string>
+    <string name="app_name">CiteSearcher Android</string>
+    <string name="Author">Author Name:</string>
+    <string name="hIndex">h-Index</string>
+    <string name="gIndex">g-Index</string>
+    <string name="URL">URL Link:</string>
+    <string name="PDF">PDF Link:</string>
+    <string name="Title">Article Title:</string>
+    <string name="Cite">Cited By:</string>
+    <string name="TotalCites">Total Citations</string>
+    <string name="info">CiteSearcher v2.1
+
+"A Google Scholar Search Tool
+
+		 
+
+Created by Kevin Brandstatter
+
+in the DataSys Laboratory
+
+at Illinois Institute of Technology.
+
+Sponsored by National Science Foundation grant NSF-1054974
+
+
+
+This app searches for scholarly articles by author using Google Scholar (http://scholar.google.com/) and
+
+returns the h-index about the authors publications.
+
+
+
+For more information, visit
+
+http://datasys.cs.iit.edu/projects/CiteSearcher/ " </string>
+    <string name="Version">2.1.1</string>
+</resources>

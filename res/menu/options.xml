@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Author" android:id="@+id/authorinfo"></item>
+    <item android:title="Delete" android:id="@+id/delete"></item>
+    <item android:title="Info" android:id="@+id/info"></item>
+    <item android:title="Advanced Options" android:id="@+id/advOpt"></item>
+</menu>

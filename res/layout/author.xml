@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/scrollView2" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:id="@+id/tableLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:isScrollContainer="true" >
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="25sp" android:text="@string/Author"/>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        	<TextView android:id="@+id/namebox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20sp" android:layout_marginLeft="100sp"/>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="25sp" android:text="@string/TotalCites"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        	<TextView android:id="@+id/totalcitesbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20sp" android:layout_marginLeft="100sp"/>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="25sp" android:text="@string/hIndex"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        	<TextView android:id="@+id/hindexbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20sp" android:autoLink="web" android:layout_marginLeft="100sp"/>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow7" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="25sp" android:text="@string/gIndex"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow8" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20sp" android:id="@+id/gindexbox" android:autoLink="web" android:layout_marginLeft="100sp"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>
