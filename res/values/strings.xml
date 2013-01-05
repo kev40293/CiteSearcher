@@ -10,7 +10,7 @@
     <string name="Title">Article Title:</string>
     <string name="Cite">Cited By:</string>
     <string name="TotalCites">Total Citations</string>
-    <string name="info">CiteSearcher v2.1
+    <string name="info">CiteSearcher v2.1.2
 
 "A Google Scholar Search Tool
 
@@ -35,5 +35,5 @@ returns the h-index about the authors publications.
 For more information, visit
 
 http://datasys.cs.iit.edu/projects/CiteSearcher/ " </string>
-    <string name="Version">2.1.1</string>
+    <string name="Version">2.1.2</string>
 </resources>

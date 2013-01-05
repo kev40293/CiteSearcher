@@ -65,7 +65,7 @@ public class SearchActivity extends Activity implements OnItemClickListener{
     			HttpURLConnection request = (HttpURLConnection) url.openConnection();
     			Date now = new Date();
     			String format = "		<time>"+ now.toString() +"</time>\n" +
-    			"		<version>"+ R.string.Version + "</version>\n" +
+    			"		<version>Android "+ getString(R.string.Version) + "</version>\n" +
     			"		<search>"+toSearch.replace('+', ' ') +"</search>\n";
     			String data = URLEncoder.encode("data", "UTF-8") + "=" +
     					URLEncoder.encode(format, "UTF-8");
