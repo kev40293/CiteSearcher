@@ -48,7 +48,7 @@
 - (void) sendLog{
 	NSDate *logTime = [[[NSDate alloc] init] autorelease];
 	NSMutableString *logFile = [[[NSMutableString alloc] initWithFormat:@"data=		<time>%@</time>\n",logTime] autorelease];
-	[logFile appendFormat:@"		<version>%@</version>\n",version];
+	[logFile appendFormat:@"		<version>iOS %@</version>\n",version];
 	for (NSString *searchSent in searchHistory){
 		[logFile appendFormat:@"		<search>%@</search>\n",searchSent];
 	}
